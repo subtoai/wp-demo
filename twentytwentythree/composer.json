@@ -1,0 +1,28 @@
+{
+    "name": "tuco/yt-theme",
+    "description": "tripunify yt demos",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "tripunify support",
+            "email": "support@tripunify.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "stripe/stripe-php": "^10.20",
+        "vlucas/phpdotenv": "^3.6",
+        "erusev/parsedown": "^1.7",
+        "defuse/php-encryption": "^2.3",
+
+        "guzzlehttp/guzzle": "^7.5.0",
+        "nesbot/carbon": "3.x-dev"
+    },
+    "autoload": {
+        "psr-4": {"Import\\": "./import"},
+        "classmap": [
+            "import"
+        ]
+    }
+}

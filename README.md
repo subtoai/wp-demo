@@ -1,2 +1,2 @@
-# wp-demo
-wordpress demos
+# tuco-wp
+tuco wordpress demo
